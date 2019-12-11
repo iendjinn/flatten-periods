@@ -1,0 +1,32 @@
+{
+  "name": "flatten-periods",
+  "version": "1.0.0",
+  "description": "Utility function for de-duplicating period data that contains overlapping periods ",
+  "main": "index.js",
+  "dependencies": {
+    "lodash.pullat": "^4.6.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "eslint": "^6.7.2",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-react": "^7.17.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IGlautier/flatten-periods.git"
+  },
+  "author": "iglautier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IGlautier/flatten-periods/issues"
+  },
+  "homepage": "https://github.com/IGlautier/flatten-periods#readme"
+}
